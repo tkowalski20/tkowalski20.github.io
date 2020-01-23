@@ -1,0 +1,38 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+h1, .display-4 {
+  color: purple;
+  font-weight: 700;
+}
+
+img {
+  height: 320px;
+}
+
+h1.section-title {
+  border: none;
+  margin-top: 20px;
+}
+
+.section-title {
+  border-top: 1px solid #aaa;
+  border-bottom: 1px solid #aaa;
+  text-align: center;
+  padding: 15px auto;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.progress {
+  height: 15px;
+}
+
+.progress-bar {
+  width: 20%;
+}
+
+.bg-kellogg {
+  background-color: purple;
+}
