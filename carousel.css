@@ -30,7 +30,8 @@ body {
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: 300px;
+    object-fit: cover;
   }
   .carousel-item > img {
     position: absolute;

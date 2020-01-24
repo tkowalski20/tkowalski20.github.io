@@ -8,7 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">    
+
+
+    <title>Welcome to Vail</title>
   </head>
   <body>
 
@@ -30,9 +34,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="weather.html">Weather</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="trip.html" tabindex="-1" aria-disabled="true">Plan Your Trip</a>
-                </li>
               </ul>
             </div>
           </nav>
@@ -41,18 +42,17 @@
     <!-- Start of Carousel / Rest of Page -->
     <main role="main">
 
-        <div id="myCarousel" class="carousel slide pointer-event" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide mt-4 pointer-event" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="Vail_Carousel2.jpg" class="img-fluid" alt="Responsive image">
-              <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
               <div class="container">
                 <div class="carousel-caption text-left">
+                  <!-- Override white font with black font color on h1 and p tags -->
                   <h1>Unparalleled Terrain.</h1>
                   <p>With 5,317 skiable acres and a wide variety of terrain, Vail is truly one-of-a-kind. Between hardcore groomers and wide-open back bowls, the mountain offers something for everyone.</p>
                   <p><a class="btn btn-lg btn-primary" href="terrain.html" role="button">Check out the Terrain</a></p>
@@ -61,25 +61,11 @@
             </div>
             <div class="carousel-item">
                 <img src="Vail_Carousel1.jpg" class="img-fluid" alt="Responsive image">
-              <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
               <div class="container">
                 <div class="carousel-caption">
                   <h1>Over 30 feet of snow each year.</h1>
                   <p>Vail averages over 360 inches of the fresh stuff every year, not to mention 300+ days of sunshine, too. That means you'll be lapping bluebird powder days.</p>
-                  <p><a class="btn btn-lg btn-primary" href="weather.html" role="button">Weather Forecast</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Vail_Carousel3.jpg" class="img-fluid" alt="Responsive image">
-                <!--
-              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"></rect></svg>
-              -->
-              <div class="container">
-                <div class="carousel-caption text-right">
-                  <h1>More than just a mountain.</h1>
-                  <p>From casual to fine dining, and high-end shops to award-winning hotels, Vail Village will charm you from the moment you step foot in Vail. Take in the European vibe and explore the alpine-inspired architecture.</p>
-                  <p><a class="btn btn-lg btn-primary" href="trip.html" role="button">Plan Your Trip</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="weather.html" role="button">Historical Weather</a></p>
                 </div>
               </div>
             </div>
@@ -112,7 +98,6 @@
             </div>
             <div class="col-md-5">
                 <img src="Vail_Mtn.jpg" class="img-fluid">
-              <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
             </div>
           </div>
       
@@ -125,7 +110,6 @@
             </div>
             <div class="col-md-5 order-md-1">
                 <img src="Vail_Snow.jpg" class="img-fluid">
-              <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
             </div>
           </div>
       
@@ -138,7 +122,6 @@
             </div>
             <div class="col-md-5">
                 <img src="Vail_Town.jpg" class="img-fluid">
-              <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg> -->
             </div>
           </div>
       
@@ -146,7 +129,7 @@
       
           <!-- /END THE FEATURETTES -->
       
-        </div><!-- /.container -->
+        </div>
       
       
         <!-- FOOTER -->

@@ -2,6 +2,22 @@
 
 /* Start here  */ 
 
+h3, .display-4 {
+    color: navy;
+    font-weight: 700;
+}
 
 
+h1, .display-4 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+
+.container {
+    background-color: azure;
+}
 
