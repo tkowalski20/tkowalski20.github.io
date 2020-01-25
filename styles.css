@@ -8,6 +8,7 @@ h3, .display-4 {
 }
 
 
+/* Override text color on Carousel */
 h1, .display-4 {
     color: black;
 }
@@ -16,8 +17,17 @@ p {
     color: black;
 }
 
+/* Override themed container for sign-up form */
+.themed-container {
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 123, 255, .15);
+    border: 1px solid rgba(0, 123, 255, .2);
+  }
 
-.container {
-    background-color: azure;
+/* Override Success Button color */
+.btn-success {
+    color: #fff;
+    background-color: #050fa8;
+    border-color: #050fa8;
 }
-
